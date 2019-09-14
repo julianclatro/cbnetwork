@@ -95,7 +95,8 @@ title: CBNETWORK
             %li= t(:comp4_list_5)
             %li= t(:comp4_list_6)
           %p= t(:communication_p5)
-          %p= t(:communication_p6)
+          %p= t(:communication_p5_p1)
+          %p= t(:communication_p5_p2)
   .section--service
     .content{ :style => "background-image: url('./images/image_5.jpg');" }
       .ui.grid.container
@@ -113,7 +114,6 @@ title: CBNETWORK
             %li= t(:story_li_2)
             %li= t(:story_li_3)
             %li= t(:story_li_4)
-            %li= t(:story_li_5)
   .section--service
     .content{ :style => "background-image: url('./images/image_6.jpeg');" }
       .ui.grid.container
@@ -130,7 +130,6 @@ title: CBNETWORK
             %li= t(:ccs_li_2)
             %li= t(:ccs_li_3)
             %li= t(:ccs_li_4)
-            %li= t(:ccs_li_5)
 #contact
   .ui.grid.container.biography
     .sixteen.wide.column
@@ -144,10 +143,20 @@ title: CBNETWORK
       %p= t(:bio_4)
       %p= t(:bio_5)
       %p= t(:bio_6)
+    .sixteen.wide.column.contact_info
+      %h3.title= t(:contact_title)
+      %p= t(:contact_mail)
+      %p= t(:contact_number)
+      %p= t(:contact_address_1)
+      %p= t(:contact_address_2)
+      %a{:href => "https://www.linkedin.com", :target =>"_blank", style: 'margin-right: 16px'}
+        %img(src="./images/linkedin_icon.svg")
+      %a{:href => "https://www.youtube.com", :target =>"_blank"}
+        %img(src="./images/youtube_icon.svg")
+
 #footer
   = image_tag 'logo.svg', class: 'ui small centered image'
 :javascript
-  console.log('hello')
   var slider = tns({
     container: '.my-slider',
     items: 1,

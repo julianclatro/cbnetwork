@@ -130,6 +130,9 @@ button .text {
 .biography {
   color: #363D32; }
 
+.contact_info p {
+  font-weight: bold; }
+
 ul {
   display: inline-block;
   padding: 0.5em;
@@ -144,7 +147,7 @@ ul.leaf > li {
 
 .leaf li {
   padding-top: 8px;
-  font-size: 14px; }
+  font-size: 13px; }
 
 ul.leaf > li:before {
   content: "";
