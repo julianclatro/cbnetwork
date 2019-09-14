@@ -1,10 +1,10 @@
 ---
 es:
-  home: "Home"
-  about: "About"
-  services: "Services"
-  contact: "Contact"
-  more: "See More"
+  home: "Inicio"
+  about: "Quienes Somos"
+  services: "Servicios"
+  contact: "Contacto"
+  more: "Ver más"
   slide1: 'Diseñamos futuro y transformamos mundo, un líder, un equipo, una organización a la vez'
   about_t1: '¿Qué te proponemos? '
   about_t2: '¿Cómo hacemos que ocurra?'
