@@ -143,16 +143,30 @@ title: CBNETWORK
       %p= t(:bio_4)
       %p= t(:bio_5)
       %p= t(:bio_6)
-    .sixteen.wide.column.contact_info
+    .four.wide.column.contact_info
       %h3.title= t(:contact_title)
       %p= t(:contact_mail)
       %p= t(:contact_number)
       %p= t(:contact_address_1)
       %p= t(:contact_address_2)
-      %a{:href => "https://www.linkedin.com", :target =>"_blank", style: 'margin-right: 16px'}
+      %a{:href => "https://www.linkedin.com/in/clarabeleiro/", :target =>"_blank", style: 'margin-right: 16px'}
         %img(src="./images/linkedin_icon.svg")
-      %a{:href => "https://www.youtube.com", :target =>"_blank"}
-        %img(src="./images/youtube_icon.svg")
+    .twelve.wide.column
+      %form.ui.form{:action => "mailto:clarabeleiro@cbnetwork.com.ar", :enctype => "text/plain", :method => "post"}
+        = t(:form_name)
+        %br/
+        %input{:name => "name", :type => "text"}/
+        %br/
+        = t(:form_mail)
+        %br/
+        %input{:name => "mail", :type => "text"}/
+        %br/
+        = t(:form_message)
+        %br/
+        %input{:name => "comment", :size => "50", :type => "text"}/
+        %br/
+        %input{:type => "submit", :value => "Send"}/
+
 
 #footer
   = image_tag 'logo.svg', class: 'ui small centered image'
