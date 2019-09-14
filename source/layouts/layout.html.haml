@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700|Raleway:400,500&display=swap"}
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"}
+
+    %title= current_page.data.title || "CBNETWORK"
+    = stylesheet_link_tag "tiny-slider"
+    = stylesheet_link_tag "site"
+    = javascript_include_tag "tiny-slider"
+    = javascript_include_tag "site"
+  %body
+    = yield

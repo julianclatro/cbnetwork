@@ -1,0 +1,29 @@
+---
+title: CBNETWORK
+---
+
+#header
+  .ui.secondary.pointing.menu#menu_container
+    .ui.container
+      .item#menu_logo
+        %img{:src => "images/logo.svg", class: 'ui small image'}
+      .right.menu
+        %a.item{:href => "#home"}= t(:home)
+        %a.item{:href => "#about"}= t(:about)
+        %a.item{:href => "#services"}= t(:services)
+        %a.item{:href => "#contact"}= t(:contact)
+        %a.item{:href => ""}
+          %i.instagram.icon
+        %a.item{:href => ""}
+          %i.twitter.icon
+.section_this
+  .header
+    = t(:hello)
+  .title
+    como estas
+  .paragraph
+    hello
+  .ui.container#que_es
+    .hero_content
+      .ui.basic.segment
+        %h5.hero_up

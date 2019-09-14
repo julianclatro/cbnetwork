@@ -1,0 +1,36 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title
+    | CBNETWORK
+  link(rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css')
+  script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js' charset='utf-8')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js')
+  link(rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/reset.min.css')
+  link(rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/item.min.css')
+  link(rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/menu.min.css')
+  link(rel='stylesheet' type='text/css' href='./assets/style.css')
+.cb-header
+  .ui.secondary.right.menu
+    .item
+      | Inicio
+    .item
+      | Quienes Somos
+    .item
+      | Servicios
+    .item
+      | Contacto
+.cb-content
+  .slider
+    div Hello
+    div How are you?
+.cb-footer
+script(type='module').
+  var slider = tns({
+  container: '.slider',
+  items: 1,
+  slideBy: 'page',
+  autoplay: true
+  });

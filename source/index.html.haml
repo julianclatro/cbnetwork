@@ -1,0 +1,159 @@
+---
+title: CBNETWORK
+---
+
+#header
+  .ui.secondary.pointing.menu#menu_container
+    .ui.container
+      .item#menu_logo
+        = image_tag 'logo.svg', class: 'ui small image'
+      .right.menu
+        %a.item{:href => "#header"}= t(:home)
+        %a.item{:href => "#about"}= t(:about)
+        %a.item{:href => "#services"}= t(:services)
+        %a.item{:href => "#contact"}= t(:contact)
+        %a.item{:href => "/es"} ES
+#hero
+  .my-slider
+    .slide{ :style => "background-image: url('./images/slider_1.jpg'); height: 100vh;" }
+      .ui.container
+        %h1.header=t(:slide1)
+        %button.button
+          .text
+            = t(:more)
+    .slide{ :style => "background-image: url('./images/image_6.jpeg'); height: 100vh;" }
+      .ui.container
+        %h1.header=t(:slide1)
+        %button.button
+          .text
+            = t(:more)
+#about
+  .section--image
+    %h2.subheader
+      = t(:about_t1)
+    .content{ :style => "background-image: url('./images/image_1.jpg');" }
+      %p= t(:about_t1_p1)
+      %p= t(:about_t1_p2)
+      %p= t(:about_t1_p3)
+      %p= t(:about_t1_p4)
+      %p= t(:about_t1_p5)
+  .section--image
+    %h2.subheader
+      = t(:about_t2)
+    .content{ :style => "background-image: url('./images/image_2.jpg');" }
+      %p= t(:about_t2_p1)
+      %p= t(:about_t2_p2)
+      %p= t(:about_t2_p3)
+      %p= t(:about_t2_p4)
+      %p= t(:about_t2_p5)
+      %p= t(:about_t2_p6)
+  .section--image
+    %h2.subheader
+      = t(:about_t3)
+    .content{ :style => "background-image: url('./images/image_3.jpeg');" }
+      %p= t(:about_t3_p1)
+      %p= t(:about_t3_p2)
+      %p= t(:about_t3_p3)
+      %p= t(:about_t3_p4)
+      %p= t(:about_t3_p5)
+      %p= t(:about_t3_p6)
+      %p= t(:about_t3_p7)
+      %p= t(:about_t3_p8)
+      %p= t(:about_t3_p9)
+      %p= t(:about_t3_p10)
+#services
+  .intro.ui.container
+    %h1.header= t(:services_title)
+    .ui.three.column.grid
+      .column
+        = image_tag('ciq_icon.svg', class: 'ui centered small image', style: 'height: 150px')
+        %h4.title= t(:communication_title)
+      .column
+        = image_tag('story_icon.svg', class: 'ui centered small image', style: 'height: 150px')
+        %h4.title= t(:story_title, class: 'ui centered small image')
+      .column
+        = image_tag('ccs_icon.svg', class: 'ui centered small image', style: 'height: 150px')
+        %h4.title= t(:ccs_title, class: 'ui centered small image')
+  .section--service
+    .content{ :style => "background-image: url('./images/image_4.jpg');" }
+      .ui.grid.container
+        .two.wide.column
+          = image_tag('ciq_icon.svg', class: 'ui small image')
+        .fourteen.wide.column
+          %h2.title= t(:communication_title)
+          %h3.subtitle= t(:communication_subtitle)
+          .quote= t(:communication_author)
+          %p= t(:communication_p1)
+          %p= t(:communication_p2)
+          %p= t(:communication_p3)
+          %p= t(:communication_p4)
+          %ul.leaf
+            %li= t(:comp4_list_1)
+            %li= t(:comp4_list_2)
+            %li= t(:comp4_list_3)
+            %li= t(:comp4_list_4)
+            %li= t(:comp4_list_5)
+            %li= t(:comp4_list_6)
+          %p= t(:communication_p5)
+          %p= t(:communication_p6)
+  .section--service
+    .content{ :style => "background-image: url('./images/image_5.jpg');" }
+      .ui.grid.container
+        .two.wide.column
+          = image_tag('story_icon.svg', class: 'ui small image')
+        .fourteen.wide.column
+          %h2.title= t(:story_title_complete)
+          %h3.subtitle= t(:story_subtitle)
+          .quote= t(:story_quote)
+          %p= t(:story_p1)
+          %h3= t(:story_title_1)
+          %h3= t(:story_title_2)
+          %ul.leaf
+            %li= t(:story_li_1)
+            %li= t(:story_li_2)
+            %li= t(:story_li_3)
+            %li= t(:story_li_4)
+            %li= t(:story_li_5)
+  .section--service
+    .content{ :style => "background-image: url('./images/image_6.jpeg');" }
+      .ui.grid.container
+        .two.wide.column
+          = image_tag('ccs_icon.svg', class: 'ui small image')
+        .fourteen.wide.column
+          %h2.title= t(:ccs_title_complete)
+          %h3.subtitle= t(:ccs_subtitle)
+          .quote= t(:ccs_quote)
+          %p= t(:ccs_p1)
+          %p= t(:ccs_p2)
+          %ul.leaf
+            %li= t(:ccs_li_1)
+            %li= t(:ccs_li_2)
+            %li= t(:ccs_li_3)
+            %li= t(:ccs_li_4)
+            %li= t(:ccs_li_5)
+#contact
+  .ui.grid.container.biography
+    .sixteen.wide.column
+      %h3= t(:bio_title)
+    .four.wide.column
+      = image_tag('clara.jpg', class: 'ui circular image')
+    .twelve.wide.column
+      %p= t(:bio_1)
+      %p= t(:bio_2)
+      %p= t(:bio_3)
+      %p= t(:bio_4)
+      %p= t(:bio_5)
+      %p= t(:bio_6)
+#footer
+  = image_tag 'logo.svg', class: 'ui small centered image'
+:javascript
+  console.log('hello')
+  var slider = tns({
+    container: '.my-slider',
+    items: 1,
+    slideBy: 1,
+    autoplay: true,
+    controls: false,
+    nav: false,
+    autoplayButtonOutput: false
+    });
