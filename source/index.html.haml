@@ -172,7 +172,6 @@ title: CBNETWORK
     .four.wide.column
       %h3.title= t(:contact_title)
       %p= t(:contact_mail)
-      %p= t(:phone)
       %p= t(:contact_number)
       %p= t(:contact_address_1)
       %p= t(:contact_address_2)
@@ -185,10 +184,13 @@ title: CBNETWORK
           %input{:name => "name", :type => "text"}/
         .field
           = t(:form_mail)
-          %input{:name => "mail", :type => "text"}/
+          %input{:mail => "mail", :type => "text"}/
+        .field
+          = t(:phone)
+          %input{:mail => "mail", :type => "text"}/
         .field
           = t(:form_message)
-          %input{:name => "comment", :size => "50", :type => "text"}/
+          %input{:comment => "comment", :size => "50", :type => "text"}/
         .field
           %input{:type => "submit", :value => "Send", :class => "ui button"}/
 
