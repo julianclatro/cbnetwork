@@ -1,7 +1,7 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :i18n, :path => "/:locale/"
+activate :i18n, :path => "/:locale/", :mount_at_root => :es
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"

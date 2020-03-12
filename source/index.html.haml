@@ -20,7 +20,7 @@ title: CBNETWORK
             %a{ :href => "#view-ccs", :style => "color: black; padding: 8px" }
               CCS
         %a.item{:href => "#contact"}= t(:contact)
-        %a.item{:href => "/es"} ES
+        %a.item{:href => "/en"} English
 #hero
   .my-slider
     .slide{ :style => "background-image: url('./images/slider_1.jpg'); height: 100vh;" }
@@ -51,7 +51,7 @@ title: CBNETWORK
     .content{ :style => "background-image: url('./images/image_2.jpg');" }
       %p= t(:about_t2_p1)
       %p= t(:about_t2_p2)
-      %a.button{ :href => "#view-ccs" }
+      %a.ui.button{ :href => "#view-ccs", :style => "background: rgba(196, 196, 196, 0.5); border: 2px solid rgba(187, 189, 191, 0.7); box-sizing: border-box; border-radius: 8px; color: white; margin-bottom: 12px;" }
         .text
           = t(:read_more)
       %p= t(:about_t2_p3)
@@ -172,6 +172,7 @@ title: CBNETWORK
     .four.wide.column
       %h3.title= t(:contact_title)
       %p= t(:contact_mail)
+      %p= t(:phone)
       %p= t(:contact_number)
       %p= t(:contact_address_1)
       %p= t(:contact_address_2)

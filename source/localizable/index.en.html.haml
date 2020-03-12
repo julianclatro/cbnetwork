@@ -3,16 +3,24 @@ title: CBNETWORK
 ---
 
 #header
-  .ui.secondary.pointing.menu#menu_container
+  .ui.secondary.pointing.menu#menu_container.shadow-divider
     .ui.container
       .item#menu_logo
         = image_tag 'logo.svg', class: 'ui small image'
       .right.menu
         %a.item{:href => "#header"}= t(:home)
         %a.item{:href => "#about"}= t(:about)
-        %a.item{:href => "#services"}= t(:services)
+        .item.dropdown
+          %a= t(:services)
+          .dropdown-content
+            %a{ :href => "#view-story", :style => "color: black; padding: 8px" }
+              CI
+            %a{ :href => "#view-ci", :style => "color: black; padding: 8px" }
+              Storytelling
+            %a{ :href => "#view-ccs", :style => "color: black; padding: 8px" }
+              CCS
         %a.item{:href => "#contact"}= t(:contact)
-        %a.item{:href => "/es"} ES
+        %a.item{:href => "/"} Spanish
 #hero
   .my-slider
     .slide{ :style => "background-image: url('./images/slider_1.jpg'); height: 100vh;" }
@@ -43,6 +51,9 @@ title: CBNETWORK
     .content{ :style => "background-image: url('./images/image_2.jpg');" }
       %p= t(:about_t2_p1)
       %p= t(:about_t2_p2)
+      %a.ui.button{ :href => "#view-ccs", :style => "background: rgba(196, 196, 196, 0.5); border: 2px solid rgba(187, 189, 191, 0.7); box-sizing: border-box; border-radius: 8px; color: white; margin-bottom: 12px;" }
+        .text
+          = t(:read_more)
       %p= t(:about_t2_p3)
       %p= t(:about_t2_p4)
       %p= t(:about_t2_p5)
@@ -60,7 +71,7 @@ title: CBNETWORK
       %p= t(:about_t3_p7)
       %p= t(:about_t3_p8)
       %p= t(:about_t3_p9)
-      %p= t(:about_t3_p10)
+      %h4= t(:about_t3_p10)
 #services
   .intro.ui.container
     %h1.header= t(:services_title)
@@ -74,8 +85,9 @@ title: CBNETWORK
       .column
         = image_tag('ccs_icon.svg', class: 'ui centered small image', style: 'height: 150px')
         %h4.title= t(:ccs_title, class: 'ui centered small image')
-  .section--service
-    .content{ :style => "background-image: url('./images/image_4.jpg');" }
+  .ui.divider.shadow-divider{ :style => "margin: 0; position: relative;" }
+  .section--service.shadow-divider
+    .content{ :style => "background-image: url('./images/image_7.jpg'); position: relative;" }
       .ui.grid.container
         .two.wide.column
           = image_tag('ciq_icon.svg', class: 'ui small image')
@@ -87,18 +99,22 @@ title: CBNETWORK
           %p= t(:communication_p2)
           %p= t(:communication_p3)
           %p= t(:communication_p4)
-          %ul.leaf
-            %li= t(:comp4_list_1)
-            %li= t(:comp4_list_2)
-            %li= t(:comp4_list_3)
-            %li= t(:comp4_list_4)
-            %li= t(:comp4_list_5)
-            %li= t(:comp4_list_6)
-          %p= t(:communication_p5)
-          %p= t(:communication_p5_p1)
-          %p= t(:communication_p5_p2)
-  .section--service
-    .content{ :style => "background-image: url('./images/image_5.jpg');" }
+          %button.button#view-ci
+            .text
+              = t(:read_more)
+          #more-ci{ :style => "display: none;"}
+            %ul.leaf
+              %li= t(:comp4_list_1)
+              %li= t(:comp4_list_2)
+              %li= t(:comp4_list_3)
+              %li= t(:comp4_list_4)
+              %li= t(:comp4_list_5)
+              %li= t(:comp4_list_6)
+            %p= t(:communication_p5)
+            %p= t(:communication_p5_p1)
+            %p= t(:communication_p5_p2)
+  .section--service.shadow-divider
+    .content{ :style => "background-image: url('./images/image_8.jpg'); position: relative; z-index: 0;" }
       .ui.grid.container
         .two.wide.column
           = image_tag('story_icon.svg', class: 'ui small image')
@@ -107,15 +123,19 @@ title: CBNETWORK
           %h3.subtitle= t(:story_subtitle)
           .quote= t(:story_quote)
           %p= t(:story_p1)
-          %h3= t(:story_title_1)
-          %h3= t(:story_title_2)
-          %ul.leaf
-            %li= t(:story_li_1)
-            %li= t(:story_li_2)
-            %li= t(:story_li_3)
-            %li= t(:story_li_4)
-  .section--service
-    .content{ :style => "background-image: url('./images/image_6.jpeg');" }
+          %h4= t(:story_title_1)
+          %button.button#view-story
+            .text
+              = t(:read_more)
+          #more-story{ :style => "display: none;"}
+            %h4= t(:story_title_2)
+            %ul.leaf
+              %li= t(:story_li_1)
+              %li= t(:story_li_2)
+              %li= t(:story_li_3)
+              %li= t(:story_li_4)
+  .section--service.shadow-divider
+    .content{ :style => "background-image: url('./images/image_9.jpg'); position: relative;" }
       .ui.grid.container
         .two.wide.column
           = image_tag('ccs_icon.svg', class: 'ui small image')
@@ -125,17 +145,21 @@ title: CBNETWORK
           .quote= t(:ccs_quote)
           %p= t(:ccs_p1)
           %p= t(:ccs_p2)
-          %ul.leaf
-            %li= t(:ccs_li_1)
-            %li= t(:ccs_li_2)
-            %li= t(:ccs_li_3)
-            %li= t(:ccs_li_4)
+          %button.button#view-ccs
+            .text
+              = t(:read_more)
+          #more-ccs{ :style => "display: none;"}
+            %ul.leaf
+              %li= t(:ccs_li_1)
+              %li= t(:ccs_li_2)
+              %li= t(:ccs_li_3)
+              %li= t(:ccs_li_4)
 #contact
   .ui.grid.container.biography
     .sixteen.wide.column
       %h3= t(:bio_title)
     .four.wide.column
-      = image_tag('clara.jpg', class: 'ui circular image')
+      = image_tag('clara_2.jpeg', class: 'ui centered circular image')
     .twelve.wide.column
       %p= t(:bio_1)
       %p= t(:bio_2)
@@ -143,9 +167,12 @@ title: CBNETWORK
       %p= t(:bio_4)
       %p= t(:bio_5)
       %p= t(:bio_6)
-    .four.wide.column.contact_info
+  .ui.hidden.divider.shadow-divider
+  .ui.grid.container.contact_info
+    .four.wide.column
       %h3.title= t(:contact_title)
       %p= t(:contact_mail)
+      %p= t(:phone)
       %p= t(:contact_number)
       %p= t(:contact_address_1)
       %p= t(:contact_address_2)
@@ -153,24 +180,25 @@ title: CBNETWORK
         %img(src="./images/linkedin_icon.svg")
     .twelve.wide.column
       %form.ui.form{:action => "mailto:clarabeleiro@cbnetwork.com.ar", :enctype => "text/plain", :method => "post"}
-        = t(:form_name)
-        %br/
-        %input{:name => "name", :type => "text"}/
-        %br/
-        = t(:form_mail)
-        %br/
-        %input{:name => "mail", :type => "text"}/
-        %br/
-        = t(:form_message)
-        %br/
-        %input{:name => "comment", :size => "50", :type => "text"}/
-        %br/
-        %input{:type => "submit", :value => "Send"}/
+        .field
+          = t(:form_name)
+          %input{:name => "name", :type => "text"}/
+        .field
+          = t(:form_mail)
+          %input{:name => "mail", :type => "text"}/
+        .field
+          = t(:form_message)
+          %input{:name => "comment", :size => "50", :type => "text"}/
+        .field
+          %input{:type => "submit", :value => "Send", :class => "ui button"}/
 
 
 #footer
   = image_tag 'logo.svg', class: 'ui small centered image'
 :javascript
+  $('.ui.dropdown.item')
+    .dropdown()
+  ;
   var slider = tns({
     container: '.my-slider',
     items: 1,
@@ -180,3 +208,18 @@ title: CBNETWORK
     nav: false,
     autoplayButtonOutput: false
     });
+  var viewStory = document.querySelector("#view-story");
+  viewStory.addEventListener("click", function(e) {
+    var story = document.querySelector("#more-story");
+    $(story).css('display', 'block');
+  });
+  var viewCI = document.querySelector("#view-ci");
+  viewCI.addEventListener("click", function(e) {
+    var ci = document.querySelector("#more-ci");
+    $(ci).css('display', 'block');
+  });
+  var viewCCS = document.querySelector("#view-ccs");
+  viewCCS.addEventListener("click", function(e) {
+    var ccs = document.querySelector("#more-ccs");
+    $(ccs).css('display', 'block');
+  });
