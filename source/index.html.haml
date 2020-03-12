@@ -51,6 +51,9 @@ title: CBNETWORK
     .content{ :style => "background-image: url('./images/image_2.jpg');" }
       %p= t(:about_t2_p1)
       %p= t(:about_t2_p2)
+      %a.button{ :href => "#view-ccs" }
+        .text
+          = t(:read_more)
       %p= t(:about_t2_p3)
       %p= t(:about_t2_p4)
       %p= t(:about_t2_p5)
@@ -68,7 +71,7 @@ title: CBNETWORK
       %p= t(:about_t3_p7)
       %p= t(:about_t3_p8)
       %p= t(:about_t3_p9)
-      %p= t(:about_t3_p10)
+      %h4= t(:about_t3_p10)
 #services
   .intro.ui.container
     %h1.header= t(:services_title)
@@ -98,7 +101,7 @@ title: CBNETWORK
           %p= t(:communication_p4)
           %button.button#view-ci
             .text
-              = t(:more)
+              = t(:read_more)
           #more-ci{ :style => "display: none;"}
             %ul.leaf
               %li= t(:comp4_list_1)
@@ -123,7 +126,7 @@ title: CBNETWORK
           %h4= t(:story_title_1)
           %button.button#view-story
             .text
-              = t(:more)
+              = t(:read_more)
           #more-story{ :style => "display: none;"}
             %h4= t(:story_title_2)
             %ul.leaf
@@ -144,7 +147,7 @@ title: CBNETWORK
           %p= t(:ccs_p2)
           %button.button#view-ccs
             .text
-              = t(:more)
+              = t(:read_more)
           #more-ccs{ :style => "display: none;"}
             %ul.leaf
               %li= t(:ccs_li_1)

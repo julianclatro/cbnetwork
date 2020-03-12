@@ -4,8 +4,9 @@ en:
   about: "About"
   services: "Services"
   contact: "Contact"
+  read_more: "Read more"
   more: "See More"
-  slide1: 'We design world-changing future, one leader, one team, one organization at a time'
+  slide1: 'We coach people to design'
   about_t1: 'What is our value proposition?'
   about_t2: 'How do we make it happen?'
   about_t3: 'What are our foundations for making it happen?'
@@ -66,17 +67,17 @@ en:
   ccs_quote: 'Ludwig Wittgenstein'
   ccs_p1: 'You know your language competencies in English as a non-native speaker enable you to communicate with a certain solvency, and yet you want agile, impactful and successful conversations.'
   ccs_p2: 'Credentialed coaches, savvy in multicultural environments and with proven tools in language learning will walk you towards generating the spin and the impact you want.'
-  ccs_li_1: 'Build on your strengths as communicatorA communication coach can help you'
+  ccs_li_1: 'A communication coach can help you'
   ccs_li_2: 'Design your public image and your strategy'
-  ccs_li_3: 'Generate relationships and results with different cultures'
-  ccs_li_4: 'Gain awareness of emotional state suitable for each given interaction'
-  ccs_li_5: ''
+  ccs_li_3: 'Build on your strengths as communicator'
+  ccs_li_4: 'Generate relationships and results with different cultures'
+  ccs_li_5: 'Gain awareness of emotional state suitable for each given interaction'
   bio_title: 'About Clara Beleiro'
-  bio_1: 'Clara is a bilingual executive coach, PCC, ICF Professional Certified Coach. Since the beginning of her career in corporate environments she accompanies C-suite executives, entrepreneurs, businesspeople and leaders to communicate effectively and get things done.'
+  bio_1: 'Clara is a bilingual executive coach, PCC, ICF Professional Certified Coach. Since the beginning of her career in corporate environments she accompanies C-suite executives, entrepreneurs, business people and leaders to communicate effectively and get things done.'
   bio_2: 'She is an expert in personal branding (Reach360®).'
   bio_3: 'She mentors teams for coaches in organizational environments and mentors coaches-to-be in an ICF accredited coaching school. She’s a passionate learner, fascinated by how we relate to each other through conversations and design futures together.'
   bio_4: 'She is the founder and Chief Learning Architect at CBnetwork Aprendizajes en Comunicación. She is an executive, team and organizational coach and crafts training programs in conscious communication and impactful leadership for various industries such as pharma, oil, finance, ag business, automotive, insurance and port operations.'
-  bio_5: 'She’s the architect of the 4 C’s ®, a conscious leadership and organizational transformation program based on Connecting, Communicating, Confronting and Co-creating. Párrafo_6: She has co-crafted a mentoring program for coaches called E4C.'
+  bio_5: 'She’s the architect of the 4 C’s ®, a conscious leadership and organizational transformation program based on Connecting, Communicating, Confronting and Co-creating.'
   bio_6: 'She has co-crafted a mentoring program for coaches called E4C.'
   bio_7: 'She is the lead architect for Work-in, a leadership development program combining, conscious dance, Jungian archetypes and coaching circles for women.'
   contact_title: 'Contact'
