@@ -51,7 +51,7 @@ title: CBNETWORK
     .content{ :style => "background-image: url('../images/image_2.jpg');" }
       %p= t(:about_t2_p1)
       %p= t(:about_t2_p2)
-      %a.ui.button{ :href => "#view-ccs", :style => "background: rgba(196, 196, 196, 0.5); border: 2px solid rgba(187, 189, 191, 0.7); box-sizing: border-box; border-radius: 8px; color: white; margin-bottom: 12px;" }
+      %a.ui.button{ :href => "#ccs", :style => "background: rgba(196, 196, 196, 0.5); border: 2px solid rgba(187, 189, 191, 0.7); box-sizing: border-box; border-radius: 8px; color: white; margin-bottom: 12px;" }
         .text
           = t(:read_more)
       %p= t(:about_t2_p3)
@@ -134,7 +134,7 @@ title: CBNETWORK
               %li= t(:story_li_2)
               %li= t(:story_li_3)
               %li= t(:story_li_4)
-  .section--service.shadow-divider
+  .section--service.shadow-divider#ccs
     .content{ :style => "background-image: url('../images/image_9.jpg'); position: relative;" }
       .ui.grid.container
         .two.wide.column
@@ -184,13 +184,13 @@ title: CBNETWORK
           %input{:name => "name", :type => "text"}/
         .field
           = t(:form_mail)
-          %input{:mail => "mail", :type => "text"}/
+          %input{:name => "mail", :type => "text"}/
         .field
           = t(:phone)
-          %input{:mail => "mail", :type => "text"}/
+          %input{:name => "phone", :type => "text"}/
         .field
           = t(:form_message)
-          %input{:comment => "comment", :size => "50", :type => "text"}/
+          %input{:name => "comment", :size => "50", :type => "text"}/
         .field
           %input{:type => "submit", :value => "Send", :class => "ui button"}/
 
