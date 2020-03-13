@@ -23,13 +23,13 @@ title: CBNETWORK
         %a.item{:href => "/"} Spanish
 #hero
   .my-slider
-    .slide{ :style => "background-image: url('./images/slider_1.jpg'); height: 100vh;" }
+    .slide{ :style => "background-image: url('../images/slider_1.jpg'); height: 100vh;" }
       .ui.container
         %h1.header=t(:slide1)
         %button.button
           .text
             = t(:more)
-    .slide{ :style => "background-image: url('./images/image_6.jpeg'); height: 100vh;" }
+    .slide{ :style => "background-image: url('../images/image_6.jpeg'); height: 100vh;" }
       .ui.container
         %h1.header=t(:slide1)
         %button.button
@@ -39,7 +39,7 @@ title: CBNETWORK
   .section--image
     %h2.subheader
       = t(:about_t1)
-    .content{ :style => "background-image: url('./images/image_1.jpg');" }
+    .content{ :style => "background-image: url('../images/image_1.jpg');" }
       %p= t(:about_t1_p1)
       %p= t(:about_t1_p2)
       %p= t(:about_t1_p3)
@@ -48,7 +48,7 @@ title: CBNETWORK
   .section--image
     %h2.subheader
       = t(:about_t2)
-    .content{ :style => "background-image: url('./images/image_2.jpg');" }
+    .content{ :style => "background-image: url('../images/image_2.jpg');" }
       %p= t(:about_t2_p1)
       %p= t(:about_t2_p2)
       %a.ui.button{ :href => "#view-ccs", :style => "background: rgba(196, 196, 196, 0.5); border: 2px solid rgba(187, 189, 191, 0.7); box-sizing: border-box; border-radius: 8px; color: white; margin-bottom: 12px;" }
@@ -61,7 +61,7 @@ title: CBNETWORK
   .section--image
     %h2.subheader
       = t(:about_t3)
-    .content{ :style => "background-image: url('./images/image_3.jpeg');" }
+    .content{ :style => "background-image: url('../images/image_3.jpeg');" }
       %p= t(:about_t3_p1)
       %p= t(:about_t3_p2)
       %p= t(:about_t3_p3)
@@ -87,7 +87,7 @@ title: CBNETWORK
         %h4.title= t(:ccs_title, class: 'ui centered small image')
   .ui.divider.shadow-divider{ :style => "margin: 0; position: relative;" }
   .section--service.shadow-divider
-    .content{ :style => "background-image: url('./images/image_7.jpg'); position: relative;" }
+    .content{ :style => "background-image: url('../images/image_7.jpg'); position: relative;" }
       .ui.grid.container
         .two.wide.column
           = image_tag('ciq_icon.svg', class: 'ui small image')
@@ -114,7 +114,7 @@ title: CBNETWORK
             %p= t(:communication_p5_p1)
             %p= t(:communication_p5_p2)
   .section--service.shadow-divider
-    .content{ :style => "background-image: url('./images/image_8.jpg'); position: relative; z-index: 0;" }
+    .content{ :style => "background-image: url('../images/image_8.jpg'); position: relative; z-index: 0;" }
       .ui.grid.container
         .two.wide.column
           = image_tag('story_icon.svg', class: 'ui small image')
@@ -135,7 +135,7 @@ title: CBNETWORK
               %li= t(:story_li_3)
               %li= t(:story_li_4)
   .section--service.shadow-divider
-    .content{ :style => "background-image: url('./images/image_9.jpg'); position: relative;" }
+    .content{ :style => "background-image: url('../images/image_9.jpg'); position: relative;" }
       .ui.grid.container
         .two.wide.column
           = image_tag('ccs_icon.svg', class: 'ui small image')
@@ -176,7 +176,7 @@ title: CBNETWORK
       %p= t(:contact_address_1)
       %p= t(:contact_address_2)
       %a{:href => "https://www.linkedin.com/in/clarabeleiro/", :target =>"_blank", style: 'margin-right: 16px'}
-        %img(src="./images/linkedin_icon.svg")
+        %img(src="../images/linkedin_icon.svg")
     .twelve.wide.column
       %form.ui.form{:action => "mailto:clarabeleiro@cbnetwork.com.ar", :enctype => "text/plain", :method => "post"}
         .field
