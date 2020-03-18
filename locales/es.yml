@@ -1,12 +1,12 @@
 ---
 es:
   home: "Inicio"
-  about: "Quienes Somos"
+  about: "Quiénes Somos"
   services: "Servicios"
   contact: "Contacto"
   read_more: "Leer más"
   more: "Ver más"
-  slide1: 'Diseñamos futuro y transformamos mundo, un líder, un equipo, una organización a la vez'
+  slide1: 'Acompañamos a diseñar futuro y transformar mundo, un líder, un equipo, una organización a la vez'
   about_t1: '¿Qué te proponemos?'
   about_t2: '¿Cómo hacemos que ocurra?'
   about_t3: '¿Sobre qué nos basamos para hacer que ocurra?'
@@ -32,10 +32,10 @@ es:
   about_t3_p9: 'Herramientas de Storytelling'
   about_t3_p10: 'Nuestra experiencia como coaches bilingües y arquitectas en aprendizajes.'
   services_title: "Servicios"
-  communication_title: 'Comunicación Consciente'
+  communication_title: 'Inteligencia Conversacional'
   story_title: 'Storytelling'
   ccs_title: 'CCS ®'
-  communication_title: 'Comunicación Consciente'
+  communication_title: 'Inteligencia Conversacional'
   communication_subtitle: 'Orquestar el estado de ánimo que produce el espacio de lo posible, ese es el rol del liderazgo'
   communication_author: 'Fernando Flores'
   communication_p1: 'En un mundo VICA (volátil, incierto, complejo y ambiguo) como el actual, precisamos de entornos laborales radicalmente colaborativos y ágiles. A eso contribuye la Comunicación Consciente.'
@@ -58,7 +58,7 @@ es:
   story_title_1: '¿Queres mejorar tu narrativa, la narrativa corporativa?'
   story_title_2: 'Te ofrecemos:'
   story_li_1: 'Taller de construcción de narrativas de impacto con Microlearning'
-  story_li_2: 'Coaching individual de construcción de narrativa: sesiones de 2 horas, one time o tres sesiones para generar producto final.'
+  story_li_2: 'Coaching individual de construcción de narrativa'
   story_li_3: 'Narrativa de equipo: Si la presentación involucra a diferentes personas de tu equipo, combinamos sesiones individuales con sesiones grupales de feedforward'
   story_li_4: 'Edición de documentos para generar impacto'
   story_li_5: 'Narrativa corporativa: si estás rediseñando tu empresa, tu negocio, contactando a nuevos clientes o nuevos mercados, diseñamos un proceso corto para “guionar” tu narrativa y asegurarte el impacto que deseas.'
@@ -66,18 +66,19 @@ es:
   ccs_subtitle: '“Los límites de mi lenguaje son los límites de mi mundo”'
   ccs_quote: 'Ludwig Wittgenstein'
   ccs_p1: 'Reconoces que tus competencias lingüísticas en Inglés te permiten comunicarte con cierta solvencia, y queres tener conversaciones ágiles, de impacto y exitosas.'
-  ccs_p2: 'Coaches credencializadas, trabajando en entornos multiculturales y expertas en el aprendizaje de idiomas te acompañan a comunicarte con el impacto y de influencia deseados. '
+  ccs_p2: 'Coaches credencializadas expertas en interculturalidad y aprendizaje te acompañan a comunicarte para impactar positivamente e influenciar.'
   ccs_li_1: 'Diseñar imagen pública y estrategia, eligiendo no solo qué quieres comunicar sino cómo y desde qué lugar para el impacto deseado.'
   ccs_li_2: 'Construir sobre tus fortalezas como comunicado diseñando en el idioma objetivo'
   ccs_li_3: 'Generar relaciones y resultados al interactuar con diferentes culturas'
   ccs_li_4: 'Ser consciente de los estados emocionales adecuados para la interacción'
+  more_info_about: 'Para más información www.coachingcommunicationskills.com tiene su propio espacio'
   bio_title: 'Acerca de Clara Beleiro'
-  bio_1: 'Clara es coach ejecutiva bilingüe, PCC, Professional Certified Coach, y desde su inicio profesional acompaña a ejecutivos C-suite, emprendedores, personas de negocios, hombres y mujeres líderes a comunicarse efectivamente.'
+  bio_1: 'Clara es Arquitecta en Aprendizajes en Comunicación, es coach ejecutiva y de equipos, PCC, Professional Certified Coach, y desde su inicio profesional acompaña a ejecutivos C-suite, emprendedores y personas de negocios a comunicarse efectivamente.'
   bio_2: 'Es mentora de equipos de coaches en entornos organizacionales, formadora de coaches en programas acreditados por la ICF y una aprendiz curiosa sobre cómo las personas nos relacionamos y generamos futuros.'
-  bio_3: 'Es CLA, Chief Learning Architect de CBnetwork Aprendizajes en Comunicación. Se desempeña como coach ejecutiva y diseña formaciones en comunicación consciente y liderazgo en industrias de farma, agricultura, petróleo, financiera, seguros, bancos y portuarias.'
+  bio_3: 'Se desempeña como coach ejecutiva, diseña y facilita formaciones en inteligencia conversacional y liderazgo en industrias de farma, agricultura, petróleo, financiera, seguros, bancos y portuarias.'
   bio_4: 'Creadora de “las 4 c’s”® programa de liderazgo consciente y transformación organizacional a través de Conectar, Comunicar, Confrontar y Cocrear.'
-  bio_5: 'Co-creadora del programa de mentoría para coaches E4C y de los talleres de Inteligencia Conversacional sobre el modelo de Judith Glazer, ontología del lenguaje e inteligencia emocional.'
-  bio_6: 'Co-creadora del programa “Work-in” para despertar el liderazgo de mujeres a través de coaching y movimiento. '
+  bio_5: 'Co-creadora, junto con Patricia Gutiérrez, PCC, del programa de Inteligencia Conversacional (Inglés y/o Español) y el programa de mentorías en Inglés para coaches E4C.'
+  bio_6: 'Co-creadora del programa “Work-in” para despertar el liderazgo de mujeres a través de coaching y danza.'
   contact_title: 'Contacto'
   contact_mail: 'clarabeleiro@cbnetwork.com.ar'
   phone: 'Telefono'

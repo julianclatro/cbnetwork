@@ -117,6 +117,10 @@ button .text {
   font-size: 18px;
   color: #fff; }
 
+.ui.secondary.pointing.menu .item a:hover,
+.ui.secondary.pointing.menu a.item:hover {
+  color: #F57E34; }
+
 .ui.secondary.pointing.menu .dropdown a {
   font-family: "Avenir Next";
   font-size: 18px;
@@ -209,7 +213,8 @@ ul.leaf > li:before {
   position: absolute;
   background-color: #f9f9f9;
   border-radius: 8px;
-  margin-top: 80px;
+  margin-top: 100px;
+  margin-left: -40px;
   min-width: 160px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -223,3 +228,11 @@ ul.leaf > li:before {
 
 .dropdown:hover .dropdown-content {
   display: block; }
+
+#more-ccs a {
+  color: #F57E34;
+  text-decoration: underline; }
+
+#contact .button {
+  background-color: #F57E34;
+  color: white; }
