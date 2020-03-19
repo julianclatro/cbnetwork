@@ -11,7 +11,7 @@ title: CBNETWORK
         %a.item{:href => "#header"}= t(:home)
         %a.item{:href => "#contact"}= t(:about)
         .item.dropdown
-          %a= t(:services)
+          %a{ :href => "#services" }= t(:services)
           .dropdown-content
             %a{ :href => "#ci", :style => "color: black; padding: 8px" }
               = t(:communication_title)
